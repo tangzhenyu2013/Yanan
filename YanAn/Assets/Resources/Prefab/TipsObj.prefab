@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3333270147166415185}
   - component: {fileID: 1877514567987170036}
   m_Layer: 5
-  m_Name: TipObjs
+  m_Name: TipsObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 121}
-  m_SizeDelta: {x: 100, y: 50}
+  m_AnchoredPosition: {x: -18.09, y: 128.52}
+  m_SizeDelta: {x: 63.82, y: 34.96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3333270147166415185
 CanvasRenderer:
@@ -107,10 +107,10 @@ RectTransform:
   m_Father: {fileID: 7351370357953798730}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 50}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5054713030071998101
 CanvasRenderer:

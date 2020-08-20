@@ -31,6 +31,4 @@ public class GameAssetCache
 
     static string mainCanvaspath = "Canvas";
     static string tipsObjPath = "Prefab/TipsObj";
-
- 
 }

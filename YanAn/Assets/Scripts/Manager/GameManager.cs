@@ -6,7 +6,7 @@ public class GameManager : Singleton<GameManager>
 
     public static string NextScene;
 
-    public static XMLManager XMLManager
+    public XMLManager XMLManager
     {
         get
         {
@@ -23,4 +23,19 @@ public class GameManager : Singleton<GameManager>
         SceneManager.LoadScene("加载等待");
         NextScene = scene;
     }
+
+    private JsonManager jsonManager;
+
+    public JsonManager JsonManager
+    {
+        get
+        {
+            if (null == GetInstance.jsonManager)
+            {
+                GetInstance.jsonManager = new JsonManager();
+            }
+            return GetInstance.jsonManager;
+        }
+    }
+
 }
