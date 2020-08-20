@@ -9,8 +9,7 @@ public class StartGame : MonoBehaviour
 
     private void Awake()
     {
-        //button.onClick.AddListener(Begin);
-        Debug.Log(GameManager.GetInstance.JsonManager.PointCollection.context.Count);
+        button.onClick.AddListener(Begin);
     }
 
     public void Begin()
