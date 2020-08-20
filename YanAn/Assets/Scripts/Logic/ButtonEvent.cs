@@ -31,13 +31,13 @@ public class ButtonEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         switch (btnName)
         {
             case "教室_返回":
-                DesTipCtrl.ShowTips("教室", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, -50);
+                DesTipCtrl.ShowTips("教室", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
                 break;
             case "教室_说明":
-                DesTipCtrl.ShowTips("说明", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, -50);
+                DesTipCtrl.ShowTips("说明", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
                 break;
             case "教室_全屏":
-                DesTipCtrl.ShowTips("全屏", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, -50);
+                DesTipCtrl.ShowTips("全屏", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
                 break;
             default:
                 break;

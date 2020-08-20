@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class GameAssetCache
 {
-    private static Canvas mainCanvas;
-    public static Canvas MainCanvas
+    static string tipsParentPath = "UIParent";
+    static string tipsParent3DPath = "UIParent3D";
+    static string tipsObjPath = "Prefab/TipsObj";
+    static string tipsObj3DPath = "Prefab/TipsObj3D";
+
+    public static string desPanePath = "Prefab/DesPanel";
+
+    private static GameObject tipsParent;
+    public static GameObject TipsParent
     {
         get
         {
-            if (null == mainCanvas)
-                mainCanvas = GameObject.Find(mainCanvaspath).GetComponent<Canvas>();
-            return mainCanvas;
+            if (null == tipsParent)
+                tipsParent = GameObject.Find(tipsParentPath);
+            return tipsParent;
         }
     }
     private static GameObject tipsObj;
@@ -22,13 +29,35 @@ public class GameAssetCache
             if (null == tipsObj)
             {
                 GameObject obj = Resources.Load(tipsObjPath) as GameObject;
-                tipsObj = GameObject.Instantiate(obj, MainCanvas.transform);
+                tipsObj = Object.Instantiate(obj, TipsParent.transform);
             }
-            mainCanvas = GameObject.Find("Canvas").GetComponent<Canvas>();
             return tipsObj;
         }
     }
 
-    static string mainCanvaspath = "Canvas";
-    static string tipsObjPath = "Prefab/TipsObj";
+    private static GameObject tipsParent3D;
+    public static GameObject TipsParent3D
+    {
+        get
+        {
+            if (null == tipsParent3D)
+                tipsParent3D = GameObject.Find(tipsParent3DPath);
+            return tipsParent3D;
+        }
+    }
+
+    private static GameObject tipsObj3D;
+
+    public static GameObject TipsObj3D
+    {
+        get
+        {
+            if (null == tipsObj3D)
+            {
+                GameObject obj = Resources.Load(tipsObj3DPath) as GameObject;
+                tipsObj3D = Object.Instantiate(obj, TipsParent3D.transform);
+            }
+            return tipsObj3D;
+        }
+    }
 }

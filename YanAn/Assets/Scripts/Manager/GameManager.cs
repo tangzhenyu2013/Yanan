@@ -18,12 +18,6 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
-    public static void LoadScene(string scene)
-    {
-        SceneManager.LoadScene("加载等待");
-        NextScene = scene;
-    }
-
     private JsonManager jsonManager;
 
     public JsonManager JsonManager
@@ -38,4 +32,23 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
+    public UIPanelManager uIPanelManager;
+
+    public UIPanelManager UIPanelManager
+    {
+        get
+        {
+            if (null == GetInstance.uIPanelManager)
+            {
+                GetInstance.uIPanelManager = new UIPanelManager();
+            }
+            return GetInstance.uIPanelManager;
+        }
+    }
+
+    public static void LoadScene(string scene)
+    {
+        SceneManager.LoadScene("加载等待");
+        NextScene = scene;
+    }
 }
