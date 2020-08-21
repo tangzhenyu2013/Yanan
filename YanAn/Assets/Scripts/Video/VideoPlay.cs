@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
-using System;
-using System.Windows.Forms;
-using System.IO;
 public class VideoPlay : MonoBehaviour
 {
     //obj.SetActive(false)该方法使用后再显示时会占用消耗大量内存，
