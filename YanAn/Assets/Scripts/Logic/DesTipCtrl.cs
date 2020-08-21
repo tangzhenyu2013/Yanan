@@ -53,6 +53,7 @@ public class DesTipCtrl
             {
                 button = GameAssetCache.TipsObj3D.AddComponent<Button>();
             }
+            button.onClick.RemoveAllListeners();
             button.onClick.AddListener(unityAction);
         }
         else

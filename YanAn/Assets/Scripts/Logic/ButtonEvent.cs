@@ -20,6 +20,9 @@ public class ButtonEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             case "教室_全屏":
                 Debug.Log("全屏");
                 break;
+            case "教室_进入场景":
+                GameManager.LoadScene("文学院");
+                break;
             default:
                 break;
         }
@@ -31,7 +34,7 @@ public class ButtonEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         switch (btnName)
         {
             case "教室_返回":
-                DesTipCtrl.ShowTips("教室", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
+                DesTipCtrl.ShowTips("返回", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
                 break;
             case "教室_说明":
                 DesTipCtrl.ShowTips("说明", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);

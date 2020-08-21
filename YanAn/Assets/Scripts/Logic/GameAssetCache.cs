@@ -10,6 +10,9 @@ public class GameAssetCache
     static string tipsObj3DPath = "Prefab/TipsObj3D";
 
     public static string desPanePath = "Prefab/DesPanel";
+    public static string dialogPath = "Prefab/Dialog";
+    public static string tipsPanelPath = "Prefab/TipsPanel";
+    public static string getPassPanelPath = "Prefab/GetPassPanel";
 
     private static GameObject tipsParent;
     public static GameObject TipsParent

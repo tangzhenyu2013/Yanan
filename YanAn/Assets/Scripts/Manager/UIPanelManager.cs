@@ -13,7 +13,6 @@ public class UIPanelManager
         {
             basePanel = Resources.Load<BasePanel>(path);
             basePanel = GameObject.Instantiate(basePanel,GameAssetCache.TipsParent.transform);
-            basePanel.transform.localPosition = Vector3.zero;
             basePanels.Push(basePanel);
             keyValuePairs.Add(path, basePanel);
         }
@@ -28,6 +27,8 @@ public class UIPanelManager
 
     public void CloseBasePanel()
     {
+        if (basePanels.Count < 1)
+            return;
         BasePanel basePanel =  basePanels.Pop();
         basePanel.gameObject.SetActive(false);
     }

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapPanel : MonoBehaviour
+public class MapPanel : SingletonMono<MapPanel>
 {
+    public GameObject btn;
     public PointItem[] pointItems;
     // Start is called before the first frame update
     void Start()
@@ -21,5 +22,14 @@ public class MapPanel : MonoBehaviour
                 pointItems[i].Initial(pointDatas[i]);
             }
         }
+
+        DelayedFunctionCaller.DelayedCall(this, 1f, OpenDialogPanel);
+    }
+
+    private void OpenDialogPanel()
+    {
+        DiaLogPanel diaLogPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.dialogPath) as DiaLogPanel;
+        diaLogPanel.Initial("老师：你就是个dei；");
+        diaLogPanel.InitButton(() => { GameManager.GetInstance.UIPanelManager.CloseBasePanel(); });
     }
 }

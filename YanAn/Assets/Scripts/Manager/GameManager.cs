@@ -32,7 +32,7 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
-    public UIPanelManager uIPanelManager;
+    private UIPanelManager uIPanelManager;
 
     public UIPanelManager UIPanelManager
     {
