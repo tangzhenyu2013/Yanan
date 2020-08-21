@@ -27,8 +27,8 @@ public class LoadAsyncScene : MonoBehaviour
     private void Start()
     {
         if (null == xmlDatas) xmlDatas = new List<XmlData>();
+        xmlDatas.AddRange(GameManager.GetInstance.XMLManager.GetDesXMLData());
         StartCoroutine(LoadingScene()); //开启协成
-        xmlDatas = GameManager.GetInstance.XMLManager.GetDesXMLData();
     }
 
     /// <summary>
