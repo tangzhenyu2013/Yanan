@@ -16,6 +16,19 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name);
+    }
+    private void OnCollisionStay(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name);
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        Debug.Log(collision.gameObject.name);
+    }
     // Update is called once per frame
     void Update()
     {

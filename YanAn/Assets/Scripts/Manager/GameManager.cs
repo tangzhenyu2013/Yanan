@@ -46,9 +46,24 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
+    private AssessmentManager assessmentManager;
+
+    public AssessmentManager AssessmentManager
+    {
+        get
+        {
+            if (null == GetInstance.assessmentManager)
+            {
+                GetInstance.assessmentManager = new AssessmentManager();
+            }
+            return GetInstance.assessmentManager;
+        }
+    }
+
     public static void LoadScene(string scene)
     {
-        SceneManager.LoadScene("加载等待");
+        GameManager.GetInstance.UIPanelManager.Reset();
         NextScene = scene;
+        SceneManager.LoadScene("加载等待");
     }
 }

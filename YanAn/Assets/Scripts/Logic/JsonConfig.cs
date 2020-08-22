@@ -6,4 +6,5 @@ public static class JsonConfig
 {
     public static string QuestionPath = "Data/题库";
     public static string PointPath = "Data/地名";
+    public static string BookPath = "Data/书籍";
 }

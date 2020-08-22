@@ -27,8 +27,8 @@ public class TipsPanel : BasePanel
         this.cancel.onClick.RemoveAllListeners();
         this.ok.onClick.AddListener(ok);
         this.cancel.onClick.AddListener(cancel);
-        this.ok.transform.localPosition = new Vector3(250f, 57f, 0f);
-        this.cancel.transform.localPosition = new Vector3(-250f, 57f, 0f);
+        this.ok.transform.localPosition = new Vector3(-217f,-118f, 0f);
+        this.cancel.transform.localPosition = new Vector3(217f,-118f, 0f);
     }
 
     public void InitButton(UnityAction ok, string okStr)
@@ -37,6 +37,6 @@ public class TipsPanel : BasePanel
         this.cancel.gameObject.SetActive(false);
         this.ok.onClick.RemoveAllListeners();
         this.ok.onClick.AddListener(ok);
-        this.ok.transform.localPosition = new Vector3(0f, 57f, 0f);
+        this.ok.transform.localPosition = new Vector3(0f,-118f, 0f);
     }
 }

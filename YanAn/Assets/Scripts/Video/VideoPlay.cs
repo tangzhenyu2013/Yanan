@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
-public class VideoPlay : MonoBehaviour
+public class VideoPlay : BasePanel
 {
     //obj.SetActive(false)该方法使用后再显示时会占用消耗大量内存，
     //因此我们可以使用将obj移出屏幕或移入屏幕的方法来替代显示与隐藏obj
@@ -36,22 +36,22 @@ public class VideoPlay : MonoBehaviour
     private bool bShow = false;
     public bool isChangeTime;
     // Use this for initialization
-    void Start()
-    {
-        //HideObj(PlayCtrlObj);
-        Init();
-    }
+    //void Start()
+    //{
+    //HideObj(PlayCtrlObj);
+    //Init();
+    //}
 
-    void Init()
-    {
-        fVol = (float)1.0;
-        //Video.url = GetFilePath("", "1", ".MP4");//默认视频地址
-        //vp_Player.url = Video.url;
-        vp_Player.url = GetFilePath("", "Test", ".MP4");
-        videoNameText.text = "刷丝袜";
-        vp_Player.Play();
-        vp_Player.started += Started;
-    }
+    //void Init()
+    //{
+    //    fVol = (float)1.0;
+    //    //Video.url = GetFilePath("", "1", ".MP4");//默认视频地址
+    //    //vp_Player.url = Video.url;
+    //    vp_Player.url = GetFilePath("", "Test", ".MP4");
+    //    videoNameText.text = "刷丝袜";
+    //    vp_Player.Play();
+    //    vp_Player.started += Started;
+    //}
     /// <summary>
     /// 计算视频时长
     /// </summary>
@@ -95,6 +95,8 @@ public class VideoPlay : MonoBehaviour
             vp_RawImage.texture = vp_Player.texture;
             ShowVideoTime();
         }
+
+        image.sprite = vp_Player.isPlaying ? play : pause;
     }
 
     //void Show_Hide()//是否显示控制条
@@ -120,12 +122,10 @@ public class VideoPlay : MonoBehaviour
                 if (vp_Player.isPlaying)
                 {
                     vp_Player.Pause();
-                    image.sprite = pause;
                 }
                 else
                 {
                     vp_Player.Play();
-                    image.sprite = play;
                 }
                 break;
             case 1:
@@ -210,8 +210,21 @@ public class VideoPlay : MonoBehaviour
         //{
         //    filePath = UnityEngine.Application.dataPath + "/StreamingAssets/" + fileName + fileFormat;
         //}
-        filePath = UnityEngine.Application.streamingAssetsPath + "/"+fileName + fileFormat;
+        filePath = UnityEngine.Application.streamingAssetsPath + "/" + fileName + fileFormat;
         return filePath;
+    }
+
+    public override void Initial(params object[] objs)
+    {
+        fVol = (float)1.0;
+        //Video.url = GetFilePath("", "1", ".MP4");//默认视频地址
+        //vp_Player.url = Video.url;
+        string vedioNmae = objs[0].ToString();
+        string name = objs[1].ToString();
+        vp_Player.url = GetFilePath("", name, ".MP4");
+        videoNameText.text = vedioNmae;
+        vp_Player.Play();
+        vp_Player.started += Started;
     }
     //void ShowObj(GameObject _obj)
     //{
@@ -222,4 +235,10 @@ public class VideoPlay : MonoBehaviour
     //{
     //    _obj.transform.position = FAR_AWAY;
     //}
+
+    public void OnDisable()
+    {
+        GameManager.GetInstance.AssessmentManager.isReadVideo = true;
+        GameManager.GetInstance.AssessmentManager.ExecutionCallCompleteTheAssessment();
+    }
 }

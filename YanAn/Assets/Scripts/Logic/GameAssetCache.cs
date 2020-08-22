@@ -4,24 +4,33 @@ using UnityEngine;
 
 public class GameAssetCache
 {
+
     static string tipsParentPath = "UIParent";
     static string tipsParent3DPath = "UIParent3D";
     static string tipsObjPath = "Prefab/TipsObj";
     static string tipsObj3DPath = "Prefab/TipsObj3D";
 
+    public static string videoPath = "Prefab/Video";
     public static string desPanePath = "Prefab/DesPanel";
     public static string dialogPath = "Prefab/Dialog";
     public static string tipsPanelPath = "Prefab/TipsPanel";
     public static string getPassPanelPath = "Prefab/GetPassPanel";
-
-    private static GameObject tipsParent;
-    public static GameObject TipsParent
+    public static string experReportPanelPath = "Prefab/ExperReportPanel";
+    public static string sceneSelectionPanelPath = "Prefab/SceneSelectionPanel";
+    public static string phonePanelPath = "Prefab/PhonePanel";
+    public static string bookPanelPath = "Prefab/BookPanel";
+    public static string bookLearnPanelPath = "Prefab/bookLearnPanel";
+    public static string assessmentPanelPath = "Prefab/AssessmentPanel";
+    public static string studentMedalPanelPath = "Prefab/StudentMedalPanel";
+    
+    private static GameObject uiParent;
+    public static GameObject UIParent
     {
         get
         {
-            if (null == tipsParent)
-                tipsParent = GameObject.Find(tipsParentPath);
-            return tipsParent;
+            if (null == uiParent)
+                uiParent = GameObject.Find(tipsParentPath);
+            return uiParent;
         }
     }
     private static GameObject tipsObj;
@@ -32,20 +41,20 @@ public class GameAssetCache
             if (null == tipsObj)
             {
                 GameObject obj = Resources.Load(tipsObjPath) as GameObject;
-                tipsObj = Object.Instantiate(obj, TipsParent.transform);
+                tipsObj = Object.Instantiate(obj, UIParent.transform);
             }
             return tipsObj;
         }
     }
 
-    private static GameObject tipsParent3D;
-    public static GameObject TipsParent3D
+    private static GameObject uiParent3D;
+    public static GameObject UIParent3D
     {
         get
         {
-            if (null == tipsParent3D)
-                tipsParent3D = GameObject.Find(tipsParent3DPath);
-            return tipsParent3D;
+            if (null == uiParent3D)
+                uiParent3D = GameObject.Find(tipsParent3DPath);
+            return uiParent3D;
         }
     }
 
@@ -58,7 +67,7 @@ public class GameAssetCache
             if (null == tipsObj3D)
             {
                 GameObject obj = Resources.Load(tipsObj3DPath) as GameObject;
-                tipsObj3D = Object.Instantiate(obj, TipsParent3D.transform);
+                tipsObj3D = Object.Instantiate(obj, UIParent3D.transform);
             }
             return tipsObj3D;
         }

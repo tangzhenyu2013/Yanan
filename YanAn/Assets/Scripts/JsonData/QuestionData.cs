@@ -15,7 +15,7 @@ public class QuestionData
     public string 选项D;
     public string 提示;
     public string 答案;
-    public int input;
+    public string input;
 }
 [Serializable]
 public class QuestionCollection

@@ -4,6 +4,8 @@ public class GetPassPanel : BasePanel
     public Button button;
     public override void Initial(params object[] objs)
     {
+        GameManager.GetInstance.AssessmentManager.assessmentPoint += 2;
+
         button.onClick.RemoveAllListeners();
         button.onClick.AddListener(() =>
         {
@@ -18,7 +20,8 @@ public class GetPassPanel : BasePanel
                 () =>
                 {
                     GameManager.GetInstance.UIPanelManager.CloseBasePanel();
-                    MapPanel.GetInstance.btn.SetActive(true);
+                    MapPanel.isLookMap = true;
+                    MapPanel.GetInstance.RefreshBtn();
                 }, "是的!进入", "不！我再看看"
                 );
         });

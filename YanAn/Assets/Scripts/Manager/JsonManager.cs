@@ -42,4 +42,22 @@ public class JsonManager
             return pointCollection;
         }
     }
+    /// <summary>
+    /// 书籍
+    /// </summary>
+    private BookCollection bookCollection;
+
+    public BookCollection BookCollection
+    {
+        get
+        {
+            if (null == bookCollection)
+            {
+                bookCollection = new BookCollection();
+                TextAsset text = Resources.Load<TextAsset>(JsonConfig.BookPath);
+                JsonUtility.FromJsonOverwrite(text.text, bookCollection);
+            }
+            return bookCollection;
+        }
+    }
 }

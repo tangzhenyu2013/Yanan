@@ -6,22 +6,52 @@ using UnityEngine.EventSystems;
 
 public class ButtonEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
+    bool fullScreen = false;
     public void OnPointerClick(PointerEventData eventData)
     {
         string btnName = eventData.pointerEnter.name;
         switch (btnName)
         {
-            case "教室_返回":
-                Debug.Log("返回");
+            case "返回":
+                GameManager.LoadScene("开始试验");
                 break;
-            case "教室_说明":
-                Debug.Log("说明");
+            case "说明":
+                TipsPanel tipsPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.tipsPanelPath) as TipsPanel;
+                tipsPanel.Initial("操作说明", "使用W,A,S,D键操作人物");
+                tipsPanel.InitButton(() =>
+                {
+                    GameManager.GetInstance.UIPanelManager.CloseBasePanel();
+                }, "确定");
                 break;
-            case "教室_全屏":
-                Debug.Log("全屏");
-                break;
-            case "教室_进入场景":
+            //case "全屏":
+            //    fullScreen = !fullScreen;
+            //    Screen.fullScreen = !fullScreen;
+            //    break;
+            case "进入场景":
                 GameManager.LoadScene("文学院");
+                break;
+            case "实验报告":
+                ExperReportPanel experReportPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.experReportPanelPath) as ExperReportPanel;
+                experReportPanel.Initial();
+                experReportPanel.InitButton(() =>
+                {
+                    GameManager.GetInstance.UIPanelManager.CloseBasePanel();
+                });
+                break;
+            case "场景选择":
+                SceneSelectionPanel sceneSelectionPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.sceneSelectionPanelPath) as SceneSelectionPanel;
+                sceneSelectionPanel.Initial();
+                sceneSelectionPanel.InitButton(
+                    () =>
+                    {
+                        GameManager.GetInstance.UIPanelManager.CloseBasePanel();
+                    }, () =>
+                    {
+                        GameManager.GetInstance.UIPanelManager.CloseBasePanel();
+                    });
+                break;
+            case "考核":
+
                 break;
             default:
                 break;
@@ -33,14 +63,20 @@ public class ButtonEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         string btnName = eventData.pointerEnter.name;
         switch (btnName)
         {
-            case "教室_返回":
+            case "返回":
                 DesTipCtrl.ShowTips("返回", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
                 break;
-            case "教室_说明":
+            case "说明":
                 DesTipCtrl.ShowTips("说明", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
                 break;
-            case "教室_全屏":
+            case "全屏":
                 DesTipCtrl.ShowTips("全屏", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
+                break;
+            case "实验报告":
+                DesTipCtrl.ShowTips("实验报告", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
+                break;
+            case "场景选择":
+                DesTipCtrl.ShowTips("场景选择", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
                 break;
             default:
                 break;
@@ -50,5 +86,10 @@ public class ButtonEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public void OnPointerExit(PointerEventData eventData)
     {
         DesTipCtrl.HideTips();
+    }
+
+    public void OnClickFullScreen()
+    {
+        Screen.fullScreen = !Screen.fullScreen;
     }
 }
