@@ -62,7 +62,7 @@ public class GameManager : Singleton<GameManager>
 
     public static void LoadScene(string scene)
     {
-        GameManager.GetInstance.UIPanelManager.Reset();
+        GetInstance.UIPanelManager.Reset();
         NextScene = scene;
         SceneManager.LoadScene("加载等待");
     }

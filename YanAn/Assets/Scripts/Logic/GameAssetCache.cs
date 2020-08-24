@@ -22,6 +22,7 @@ public class GameAssetCache
     public static string bookLearnPanelPath = "Prefab/bookLearnPanel";
     public static string assessmentPanelPath = "Prefab/AssessmentPanel";
     public static string studentMedalPanelPath = "Prefab/StudentMedalPanel";
+    public static string musicPanelPath = "Prefab/MusicPanel";
     
     private static GameObject uiParent;
     public static GameObject UIParent

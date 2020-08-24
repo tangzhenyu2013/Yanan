@@ -60,4 +60,19 @@ public class JsonManager
             return bookCollection;
         }
     }
+
+    private MusicCollection musicCollection;
+    public MusicCollection MusicCollection
+    {
+        get
+        {
+            if (null == musicCollection)
+            {
+                musicCollection = new MusicCollection();
+                TextAsset text = Resources.Load<TextAsset>(JsonConfig.MusicPath);
+                JsonUtility.FromJsonOverwrite(text.text, musicCollection);
+            }
+            return musicCollection;
+        }
+    }
 }
