@@ -62,14 +62,16 @@ namespace HighlightingSystem.Demo
                     bookLearnPanel.Initial();
                 }
 
-                if (hitInfo.transform.name == "music")
+                if (hitInfo.transform.name == "gu")
                 {
-                    TipsPanel tipsPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.tipsPanelPath) as TipsPanel;
-                    tipsPanel.Initial("提示", "功能暂未开发，敬请期待!");
-                    tipsPanel.InitButton(() =>
-                    {
-                        GameManager.GetInstance.UIPanelManager.CloseBasePanel();
-                    }, "确定");
+                    MusicPanel musicPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.musicPanelPath) as MusicPanel;
+                    musicPanel.Initial("鼓");
+                }
+
+                if (hitInfo.transform.name == "xintianyou")
+                {
+                    XintianyouPanel xintianyouPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.xintianyouPanelPath) as XintianyouPanel;
+                    xintianyouPanel.Initial();
                 }
                 //highlighter.tween = !highlighter.tween;
             }

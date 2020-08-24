@@ -67,13 +67,14 @@ public class MusicPanel : BasePanel
 
     private void ResetButton()
     {
+        MusicDetail.SetActive(false);
         for (int i = 0; i < gameObjects.Length; i++)
         {
             gameObjects[i].gameObject.SetActive(false);
         }
     }
 
-    private int lastIndex = 12;
+    private int lastIndex = -1;
 
     public void OnClickMusic(int index)
     {
@@ -107,5 +108,15 @@ public class MusicPanel : BasePanel
                 audioSource.Play();
             }
         }
+    }
+
+    public void ClosePanel()
+    {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+        lastIndex = -1;
+        GameManager.GetInstance.UIPanelManager.CloseBasePanel();
     }
 }
