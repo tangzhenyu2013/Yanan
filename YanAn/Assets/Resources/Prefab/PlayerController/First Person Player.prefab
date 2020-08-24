@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91b737063095924793297f123cbd074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 200
   playerBody: {fileID: 4013890356704048711}
 --- !u!114 &482640770
 MonoBehaviour:
@@ -421,7 +421,7 @@ MonoBehaviour:
   _blurMinSpread: 0.65
   _blurSpread: 0.25
   _blurIntensity: 0.3
-  _blurDirections: 0
+  _blurDirections: 1
   _blitter: {fileID: 0}
   _antiAliasing: 0
   _presets:
