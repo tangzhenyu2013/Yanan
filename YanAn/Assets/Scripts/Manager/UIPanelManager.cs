@@ -31,6 +31,15 @@ public class UIPanelManager
         return basePanel;
     }
 
+    public void CloseAllPanel()
+    {
+        while (basePanels.Count > 0)
+        {
+            BasePanel basePanel = basePanels.Pop();
+            basePanel.gameObject.SetActive(false);
+        }
+    }
+
     public void CloseBasePanel()
     {
         if (basePanels.Count < 1)

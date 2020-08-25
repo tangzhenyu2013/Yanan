@@ -38,6 +38,8 @@ public class XintianyouPanel : BasePanel
     /// </summary>
     public void OnClickOK()
     {
-
+        GameManager.GetInstance.UIPanelManager.CloseBasePanel();
+        GameManager.GetInstance.AssessmentManager.isCreationXintianyou = true;
+        GameManager.GetInstance.AssessmentManager.ExecutionCallCallartistMedal();
     }
 }

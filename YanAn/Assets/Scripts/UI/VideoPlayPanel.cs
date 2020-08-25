@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
-public class VideoPlay : BasePanel
+using UnityEngine.Events;
+
+public class VideoPlayPanel : BasePanel
 {
     //obj.SetActive(false)该方法使用后再显示时会占用消耗大量内存，
     //因此我们可以使用将obj移出屏幕或移入屏幕的方法来替代显示与隐藏obj
@@ -35,6 +37,7 @@ public class VideoPlay : BasePanel
     private int iTimerCount = 60 * 10;
     private bool bShow = false;
     public bool isChangeTime;
+    public Button button;
     // Use this for initialization
     //void Start()
     //{
@@ -225,6 +228,15 @@ public class VideoPlay : BasePanel
         videoNameText.text = vedioNmae;
         vp_Player.Play();
         vp_Player.started += Started;
+
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(() => { GameManager.GetInstance.UIPanelManager.CloseBasePanel(); });
+    }
+
+    public void InitButton(UnityAction unityAction)
+    {
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(unityAction);
     }
     //void ShowObj(GameObject _obj)
     //{

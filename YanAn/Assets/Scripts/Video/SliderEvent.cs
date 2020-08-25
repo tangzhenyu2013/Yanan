@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class SliderEvent : MonoBehaviour, IBeginDragHandler, IPointerDownHandler,IPointerUpHandler, IEndDragHandler
 {
     [SerializeField]
-    private VideoPlay toPlayVideo;        // 视频播放的脚本
+    private VideoPlayPanel toPlayVideo;        // 视频播放的脚本
 
     public void OnBeginDrag(PointerEventData eventData)
     {

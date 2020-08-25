@@ -25,6 +25,14 @@ public class AssessmentManager
     /// 是否进入秧歌曲
     /// </summary>
     public bool isEnterYanggeju;
+    /// <summary>
+    /// 是否创作 信天游
+    /// </summary>
+    public bool isCreationXintianyou;
+    /// <summary>
+    /// 是否完成秧歌剧
+    /// </summary>
+    public bool isCompleteYangko;
 
     public event UnityAction CallCompleteTheAssessment;
 
@@ -38,6 +46,20 @@ public class AssessmentManager
     public void ExecutionCallYanggejuTheAssessment()
     {
         CallYanggejuTheAssessment?.Invoke();
+    }
+
+    public event UnityAction<bool> CallEmojiManagement;
+
+    public void ExecutionCallEmojiManagement(bool state)
+    {
+        CallEmojiManagement?.Invoke(state);
+    }
+
+    public event UnityAction CallartistMedal;
+
+    public void ExecutionCallCallartistMedal()
+    {
+        CallartistMedal?.Invoke();
     }
 }
 

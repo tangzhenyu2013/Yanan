@@ -60,7 +60,9 @@ public class JsonManager
             return bookCollection;
         }
     }
-
+    /// <summary>
+    /// 乐器
+    /// </summary>
     private MusicCollection musicCollection;
     public MusicCollection MusicCollection
     {
@@ -73,6 +75,22 @@ public class JsonManager
                 JsonUtility.FromJsonOverwrite(text.text, musicCollection);
             }
             return musicCollection;
+        }
+    }
+
+    private OperaCollection operaCollection;
+
+    public OperaCollection OperaCollection
+    {
+        get
+        {
+            if (null == operaCollection)
+            {
+                operaCollection = new OperaCollection();
+                TextAsset text = Resources.Load<TextAsset>(JsonConfig.OperaPath);
+                JsonUtility.FromJsonOverwrite(text.text, operaCollection);
+            }
+            return operaCollection;
         }
     }
 }

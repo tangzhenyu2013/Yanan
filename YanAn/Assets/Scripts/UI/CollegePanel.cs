@@ -12,6 +12,7 @@ public class CollegePanel : MonoBehaviour
     {
         GameManager.GetInstance.AssessmentManager.CallCompleteTheAssessment += RefreshButton;
         GameManager.GetInstance.AssessmentManager.CallYanggejuTheAssessment += RefreshYanggeju;
+        GameManager.GetInstance.AssessmentManager.CallartistMedal += CallartistMedal;
         RefreshButton();
     }
 
@@ -19,6 +20,7 @@ public class CollegePanel : MonoBehaviour
     {
         GameManager.GetInstance.AssessmentManager.CallCompleteTheAssessment -= RefreshButton;
         GameManager.GetInstance.AssessmentManager.CallYanggejuTheAssessment += RefreshYanggeju;
+        GameManager.GetInstance.AssessmentManager.CallartistMedal -= CallartistMedal;
     }
 
     private void Start()
@@ -64,5 +66,19 @@ public class CollegePanel : MonoBehaviour
     public void RefreshYanggeju()
     {
         yanggejuBox.SetActive(!GameManager.GetInstance.AssessmentManager.isEnterYanggeju);
+    }
+
+    public void CallartistMedal()
+    {
+        if (GameManager.GetInstance.AssessmentManager.isCreationXintianyou
+            && GameManager.GetInstance.AssessmentManager.isCompleteYangko)
+        {
+            TipsPanel tipsPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.tipsPanelPath) as TipsPanel;
+            tipsPanel.Initial("文艺工作者奖章", "恭喜您，完成鲁艺文学院场景创作任务，获得此证，可继续探索");
+            tipsPanel.InitButton(() =>
+            {
+                GameManager.GetInstance.UIPanelManager.CloseBasePanel();
+            }, "确定");
+        }
     }
 }

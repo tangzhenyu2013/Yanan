@@ -52,7 +52,7 @@ namespace HighlightingSystem.Demo
                 }
                 if (hitInfo.transform.name == "vedio")
                 {
-                    VideoPlay videoPlay = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.videoPath) as VideoPlay;
+                    VideoPlayPanel videoPlay = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.videoPanelPath) as VideoPlayPanel;
                     videoPlay.Initial("搞笑网络视频", "Test");
                 }
 

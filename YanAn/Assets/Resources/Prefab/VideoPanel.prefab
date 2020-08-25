@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1193983657222002577}
   - component: {fileID: 2588078081114384468}
   - component: {fileID: 7803647970040911932}
-  - component: {fileID: 4682095879709404070}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -118,18 +117,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &4682095879709404070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3576068604505982803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf6d9e453e1764e4a8f5ecb767b52d0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5986695122887166372
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +128,7 @@ GameObject:
   - component: {fileID: 3963371694538113408}
   - component: {fileID: 8998757003533593135}
   m_Layer: 5
-  m_Name: Video
+  m_Name: VideoPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,6 +181,7 @@ MonoBehaviour:
   play: {fileID: 21300000, guid: c2e212713748391498b15e3dba28569b, type: 3}
   pause: {fileID: 21300000, guid: fae6a14105d16b34bb290ae65249b475, type: 3}
   isChangeTime: 0
+  button: {fileID: 7803647970040911932}
 --- !u!1 &7205377246198786422
 GameObject:
   m_ObjectHideFlags: 0

@@ -30,6 +30,9 @@ public class ClothingCollocationPanel : BasePanel
             GameManager.GetInstance.AssessmentManager.isEnterYanggeju = true;
             GameManager.GetInstance.AssessmentManager.ExecutionCallYanggejuTheAssessment();
             GameManager.GetInstance.UIPanelManager.CloseBasePanel();
+
+            EmojiManagementPanel emojiManagementPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.emojiManagementPanelPath) as EmojiManagementPanel;
+            emojiManagementPanel.Initial();
         }
         else
         {

@@ -10,7 +10,7 @@ public class GameAssetCache
     static string tipsObjPath = "Prefab/TipsObj";
     static string tipsObj3DPath = "Prefab/TipsObj3D";
 
-    public static string videoPath = "Prefab/Video";
+    public static string videoPanelPath = "Prefab/VideoPanel";
     public static string desPanePath = "Prefab/DesPanel";
     public static string dialogPath = "Prefab/Dialog";
     public static string tipsPanelPath = "Prefab/TipsPanel";
@@ -25,8 +25,10 @@ public class GameAssetCache
     public static string musicPanelPath = "Prefab/MusicPanel";
     public static string xintianyouPanelPath = "Prefab/XintianyouPanel";
     public static string clothingCollocationPanelPath = "Prefab/ClothingCollocationPanel";
+    public static string emojiManagementPanelPath = "Prefab/EmojiManagementPanel";
+    public static string selectPanelPath = "Prefab/SelectPanel";
+    public static string yangkoScriptPanelPath = "Prefab/YangkoScriptPanel";
     
-
     private static GameObject uiParent;
     public static GameObject UIParent
     {

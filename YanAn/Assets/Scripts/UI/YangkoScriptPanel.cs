@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-public class DiaLogPanel : BasePanel
+
+public class YangkoScriptPanel : BasePanel
 {
+    public Text text;
     public Button button;
-    public Text des;
     public override void Initial(params object[] objs)
     {
-        Helper.SetText(objs[0].ToString(), des);
+
     }
 
     public void InitButton(UnityAction unityAction)
@@ -18,4 +19,3 @@ public class DiaLogPanel : BasePanel
         button.onClick.AddListener(unityAction);
     }
 }
-
