@@ -38,6 +38,10 @@ public class VideoPlayPanel : BasePanel
     private bool bShow = false;
     public bool isChangeTime;
     public Button button;
+    /// <summary>
+    /// 完成任务按钮
+    /// </summary>
+    public Button mission;
     // Use this for initialization
     //void Start()
     //{
@@ -231,12 +235,24 @@ public class VideoPlayPanel : BasePanel
 
         button.onClick.RemoveAllListeners();
         button.onClick.AddListener(() => { GameManager.GetInstance.UIPanelManager.CloseBasePanel(); });
+
+        if (mission != null)
+            mission.gameObject.SetActive(false);
     }
 
-    public void InitButton(UnityAction unityAction)
+    public void InitButton(UnityAction unityAction, UnityAction unityAction2 = null)
     {
         button.onClick.RemoveAllListeners();
         button.onClick.AddListener(unityAction);
+        if (unityAction2 != null)
+        {
+            if (mission != null)
+            {
+                mission.gameObject.SetActive(true);
+                mission.onClick.RemoveAllListeners();
+                mission.onClick.AddListener(unityAction2);
+            }
+        }
     }
     //void ShowObj(GameObject _obj)
     //{

@@ -28,6 +28,7 @@ public class GameAssetCache
     public static string emojiManagementPanelPath = "Prefab/EmojiManagementPanel";
     public static string selectPanelPath = "Prefab/SelectPanel";
     public static string yangkoScriptPanelPath = "Prefab/YangkoScriptPanel";
+    public static string proofPanelPath = "Prefab/ProofPanel";
     
     private static GameObject uiParent;
     public static GameObject UIParent

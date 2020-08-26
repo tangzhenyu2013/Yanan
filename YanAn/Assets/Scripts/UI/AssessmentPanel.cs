@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class AssessmentPanel : BasePanel
@@ -17,13 +18,15 @@ public class AssessmentPanel : BasePanel
     public List<QuestionData> questionDatas;
     public InputField inputField;
     public Text prompt;
-
+    public Button exitBtn;
+    public GameObject subjectiveBtn;
     public ParsingItem[] parsingItems;
 
     private int curPage;
     private int MaxPage;
     public override void Initial(params object[] objs)
     {
+        subjectiveBtn.SetActive(true);
         parentObj.SetActive(true);
         promptObj.SetActive(false);
         selectObj.SetActive(true);
@@ -201,20 +204,9 @@ public class AssessmentPanel : BasePanel
         }
     }
 
-    public void ExitPanel()
+    public void InitExitBtn(UnityAction unityAction)
     {
-        //考核完成
-        GameManager.GetInstance.AssessmentManager.isCompleteTheAssessment = true;
-        GameManager.GetInstance.AssessmentManager.ExecutionCallCompleteTheAssessment();
-
-        GameManager.GetInstance.UIPanelManager.CloseBasePanel();
-        StudentMedalPanel studentMedalPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.studentMedalPanelPath) as StudentMedalPanel;
-        studentMedalPanel.Initial("学员奖章", @"恭喜您，完成延安民族干部学院场景学习任务，获得此证
-可前往鲁艺文学院场景探索");
-        studentMedalPanel.InitButton(() =>
-        {
-            GameManager.GetInstance.AssessmentManager.assessmentPoint += 2;
-            GameManager.GetInstance.UIPanelManager.CloseBasePanel();
-        }, "确定");
+        exitBtn.onClick.RemoveAllListeners();
+        exitBtn.onClick.AddListener(unityAction);
     }
 }

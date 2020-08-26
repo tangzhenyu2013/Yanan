@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 1425584096}
   - component: {fileID: 1425584095}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ExitBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,18 +194,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1425584096}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3394676165986772770}
-        m_MethodName: ExitPanel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &16448651970559021
@@ -2095,6 +2084,8 @@ MonoBehaviour:
   questionDatas: []
   inputField: {fileID: 5495017764463228430}
   prompt: {fileID: 6309825647412952712}
+  exitBtn: {fileID: 1425584095}
+  subjectiveBtn: {fileID: 7949740768877134398}
   parsingItems:
   - {fileID: 1024628608956209274}
   - {fileID: 1875442968050039386}

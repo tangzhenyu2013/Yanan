@@ -12,7 +12,7 @@ public class UIPanelManager
         if (!keyValuePairs.ContainsKey(path))
         {
             basePanel = Resources.Load<BasePanel>(path);
-            basePanel = GameObject.Instantiate(basePanel,GameAssetCache.UIParent.transform);
+            basePanel = GameObject.Instantiate(basePanel, GameAssetCache.UIParent.transform);
             GameObject mask = Resources.Load<GameObject>("Prefab/Mask");
             //增加个遮罩  防止界面互相影响点击事件
             mask = GameObject.Instantiate(mask, basePanel.transform);
@@ -23,7 +23,8 @@ public class UIPanelManager
         else
         {
             basePanel = keyValuePairs[path];
-            basePanels.Push(basePanel);
+            if (!basePanels.Contains(basePanel))
+                basePanels.Push(basePanel);
         }
         basePanel.gameObject.SetActive(true);
         //设置为最后一个 提高渲染优先级
@@ -44,7 +45,7 @@ public class UIPanelManager
     {
         if (basePanels.Count < 1)
             return;
-        BasePanel basePanel =  basePanels.Pop();
+        BasePanel basePanel = basePanels.Pop();
         basePanel.gameObject.SetActive(false);
     }
 

@@ -10,7 +10,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 //UI图片拖拽功能类
-public class Test : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class CardItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [Header("是否精准拖拽")]
     public bool m_isPrecision;
@@ -32,6 +32,8 @@ public class Test : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     //开始拖拽触发
     public void OnBeginDrag(PointerEventData eventData)
     {
+        GameManager.GetInstance.AssessmentManager.isEndDrag = false;
+        GameManager.GetInstance.AssessmentManager.dragSprite = GetComponent<Image>().sprite;
         //如果精确拖拽则进行计算偏移量操作
         if (m_isPrecision)
         {
@@ -61,6 +63,7 @@ public class Test : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     public void OnEndDrag(PointerEventData eventData)
     {
         //SetDraggedPosition(eventData);
+        GameManager.GetInstance.AssessmentManager.isEndDrag = true;
         m_rt.position = defaultPos;
     }
 
