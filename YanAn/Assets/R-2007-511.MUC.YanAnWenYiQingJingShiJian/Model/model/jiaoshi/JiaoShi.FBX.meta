@@ -1,0 +1,1817 @@
+fileFormatVersion: 2
+guid: b4d0f8c77ef7c1341896a1bfd42c1f70
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ban1
+    100002: ban2
+    100004: Biao
+    100006: Chuang
+    100008: Chuang01
+    100010: Chuang02
+    100012: Chuang03
+    100014: Chuang04
+    100016: Chuang05
+    100018: Chuang06
+    100020: Chuang07
+    100022: Chuang08
+    100024: deng01
+    100026: deng02
+    100028: deng03
+    100030: deng04
+    100032: deng05
+    100034: deng06
+    100036: deng07
+    100038: deng08
+    100040: deng09
+    100042: deng10
+    100044: deng12
+    100046: deng13
+    100048: DiBan
+    100050: diqiuyi
+    100052: gui1
+    100054: gui2
+    100056: gun
+    100058: heiban
+    100060: //RootNode
+    100062: lajitong1
+    100064: lajitong2
+    100066: lajitong3
+    100068: Men
+    100070: Qiang
+    100072: Qiang01
+    100074: Qiang02
+    100076: Qiang03
+    100078: Qiang04
+    100080: TianHuaBan
+    100082: TianHuaBan 1
+    100084: Yi01
+    100086: Yi02
+    100088: Yi03
+    100090: Yi04
+    100092: Yi05
+    100094: Yi06
+    100096: Yi07
+    100098: Yi08
+    100100: Yi09
+    100102: Yi10
+    100104: Yi11
+    100106: Yi12
+    100108: Yi13
+    100110: Yi14
+    100112: Yi15
+    100114: Yi16
+    100116: Yi17
+    100118: Yi18
+    100120: Yi19
+    100122: Yi20
+    100124: Yi21
+    100126: Yi22
+    100128: Yi23
+    100130: Yi24
+    100132: Zhuo01
+    100134: Zhuo02
+    100136: Zhuo03
+    100138: Zhuo04
+    100140: Zhuo05
+    100142: Zhuo06
+    100144: Zhuo07
+    100146: Zhuo08
+    100148: Zhuo09
+    100150: Zhuo10
+    100152: Zhuo11
+    100154: Zhuo12
+    100156: ZhuoYi
+    400000: ban1
+    400002: ban2
+    400004: Biao
+    400006: Chuang
+    400008: Chuang01
+    400010: Chuang02
+    400012: Chuang03
+    400014: Chuang04
+    400016: Chuang05
+    400018: Chuang06
+    400020: Chuang07
+    400022: Chuang08
+    400024: deng01
+    400026: deng02
+    400028: deng03
+    400030: deng04
+    400032: deng05
+    400034: deng06
+    400036: deng07
+    400038: deng08
+    400040: deng09
+    400042: deng10
+    400044: deng12
+    400046: deng13
+    400048: DiBan
+    400050: diqiuyi
+    400052: gui1
+    400054: gui2
+    400056: gun
+    400058: heiban
+    400060: //RootNode
+    400062: lajitong1
+    400064: lajitong2
+    400066: lajitong3
+    400068: Men
+    400070: Qiang
+    400072: Qiang01
+    400074: Qiang02
+    400076: Qiang03
+    400078: Qiang04
+    400080: TianHuaBan
+    400082: TianHuaBan 1
+    400084: Yi01
+    400086: Yi02
+    400088: Yi03
+    400090: Yi04
+    400092: Yi05
+    400094: Yi06
+    400096: Yi07
+    400098: Yi08
+    400100: Yi09
+    400102: Yi10
+    400104: Yi11
+    400106: Yi12
+    400108: Yi13
+    400110: Yi14
+    400112: Yi15
+    400114: Yi16
+    400116: Yi17
+    400118: Yi18
+    400120: Yi19
+    400122: Yi20
+    400124: Yi21
+    400126: Yi22
+    400128: Yi23
+    400130: Yi24
+    400132: Zhuo01
+    400134: Zhuo02
+    400136: Zhuo03
+    400138: Zhuo04
+    400140: Zhuo05
+    400142: Zhuo06
+    400144: Zhuo07
+    400146: Zhuo08
+    400148: Zhuo09
+    400150: Zhuo10
+    400152: Zhuo11
+    400154: Zhuo12
+    400156: ZhuoYi
+    2100000: class_b_Mesh_FBXASC04012FBXASC041SG
+    2100002: class_b_Mesh_FBXASC0409FBXASC041SG
+    2100004: class_b_Mesh_FBXASC0409FBXASC041SG2
+    2100006: class_b_Mesh_FBXASC0409FBXASC041SG1
+    2100008: class_b_Mesh_FBXASC04013FBXASC041SG1
+    2100010: class_b_Mesh_FBXASC04013FBXASC041SG
+    2100012: class_b_Mesh_FBXASC04014FBXASC041SG
+    2100014: class_b_Mesh_FBXASC04014FBXASC041SG1
+    2100016: class_b_Mesh_FBXASC04014FBXASC041SG2
+    2100018: class_b_Mesh_FBXASC0408FBXASC041SG2
+    2100020: class_b_Mesh_FBXASC0408FBXASC041SG
+    2100022: class_b_Mesh_FBXASC0408FBXASC041SG1
+    2100024: class_b_Mesh_FBXASC04019FBXASC041SG
+    2100026: class_b_Mesh_FBXASC04018FBXASC041SG
+    2100028: class_b_Mesh_FBXASC04017FBXASC041SG1
+    2100030: class_b_Mesh_FBXASC04017FBXASC041SG
+    2100032: class_b_Mesh_FBXASC04015FBXASC041SG
+    2100034: class_b_Mesh_FBXASC04015FBXASC041SG3
+    2100036: class_b_Mesh_FBXASC04015FBXASC041SG2
+    2100038: class_b_Mesh_FBXASC04015FBXASC041SG5
+    2100040: class_b_Mesh_FBXASC04015FBXASC041SG1
+    2100042: class_b_Mesh_FBXASC04015FBXASC041SG4
+    2100044: class_b_Mesh_FBXASC04019FBXASC041_dup_3SG
+    2100046: class_b_Mesh_FBXASC04019FBXASC041_dup_2SG
+    2100048: class_b_Mesh_FBXASC0409FBXASC041_dup_2SG
+    2100050: class_b_Mesh_FBXASC0409FBXASC041_dup_2SG2
+    2100052: class_b_Mesh_FBXASC0409FBXASC041_dup_2SG1
+    2100054: class_b_Mesh_FBXASC0406FBXASC041SG2
+    2100056: class_b_Mesh_FBXASC0406FBXASC041SG1
+    2100058: class_b_Mesh_FBXASC0406FBXASC041SG
+    2100060: class_b_Mesh_FBXASC0404FBXASC041_dup_8SG2
+    2100062: class_b_Mesh_FBXASC0404FBXASC041_dup_8SG
+    2100064: class_b_Mesh_FBXASC0404FBXASC041_dup_8SG3
+    2100066: class_b_Mesh_FBXASC0404FBXASC041_dup_8SG1
+    2100068: class_b_Mesh_FBXASC0404FBXASC041_dup_7SG2
+    2100070: class_b_Mesh_FBXASC0404FBXASC041_dup_7SG
+    2100072: class_b_Mesh_FBXASC0404FBXASC041_dup_7SG3
+    2100074: class_b_Mesh_FBXASC0404FBXASC041_dup_7SG1
+    2100076: class_b_Mesh_FBXASC0404FBXASC041_dup_6SG2
+    2100078: class_b_Mesh_FBXASC0404FBXASC041_dup_6SG
+    2100080: class_b_Mesh_FBXASC0404FBXASC041_dup_6SG3
+    2100082: class_b_Mesh_FBXASC0404FBXASC041_dup_6SG1
+    2100084: class_b_Mesh_FBXASC0404FBXASC041_dup_5SG2
+    2100086: class_b_Mesh_FBXASC0404FBXASC041_dup_5SG
+    2100088: class_b_Mesh_FBXASC0404FBXASC041_dup_5SG3
+    2100090: class_b_Mesh_FBXASC0404FBXASC041_dup_5SG1
+    2100092: class_b_Mesh_FBXASC0404FBXASC041_dup_4SG2
+    2100094: class_b_Mesh_FBXASC0404FBXASC041_dup_4SG
+    2100096: class_b_Mesh_FBXASC0404FBXASC041_dup_4SG3
+    2100098: class_b_Mesh_FBXASC0404FBXASC041_dup_4SG1
+    2100100: class_b_Mesh_FBXASC0404FBXASC041_dup_3SG2
+    2100102: class_b_Mesh_FBXASC0404FBXASC041_dup_3SG
+    2100104: class_b_Mesh_FBXASC0404FBXASC041_dup_3SG3
+    2100106: class_b_Mesh_FBXASC0404FBXASC041_dup_3SG1
+    2100108: class_b_Mesh_FBXASC0405FBXASC041_dup_4SG1
+    2100110: class_b_Mesh_FBXASC0405FBXASC041_dup_4SG2
+    2100112: class_b_Mesh_FBXASC0405FBXASC041_dup_4SG
+    2100114: class_b_Mesh_FBXASC0405FBXASC041_dup_3SG1
+    2100116: class_b_Mesh_FBXASC0405FBXASC041_dup_3SG2
+    2100118: class_b_Mesh_FBXASC0405FBXASC041_dup_3SG
+    2100120: class_b_Mesh_FBXASC0405FBXASC041_dup_2SG1
+    2100122: class_b_Mesh_FBXASC0405FBXASC041_dup_2SG2
+    2100124: class_b_Mesh_FBXASC0405FBXASC041_dup_2SG
+    2100126: class_b_Mesh_FBXASC04016FBXASC041SG1
+    2100128: class_b_Mesh_FBXASC04016FBXASC041SG
+    2100130: class_b_Mesh_FBXASC04016FBXASC041SG3
+    2100132: class_b_Mesh_FBXASC04016FBXASC041SG2
+    2100134: class_b_Mesh_FBXASC0404FBXASC041_dup_2SG2
+    2100136: class_b_Mesh_FBXASC0404FBXASC041_dup_2SG
+    2100138: class_b_Mesh_FBXASC0404FBXASC041_dup_2SG3
+    2100140: class_b_Mesh_FBXASC0404FBXASC041_dup_2SG1
+    2100142: class_b_Mesh_FBXASC0405FBXASC041SG1
+    2100144: class_b_Mesh_FBXASC0405FBXASC041SG2
+    2100146: class_b_Mesh_FBXASC0405FBXASC041SG
+    2100148: class_b_Mesh_FBXASC0404FBXASC041SG2
+    2100150: class_b_Mesh_FBXASC0404FBXASC041SG
+    2100152: class_b_Mesh_FBXASC0404FBXASC041SG3
+    2100154: class_b_Mesh_FBXASC0404FBXASC041SG1
+    2100156: class_b_MeshSG
+    2100158: class_b_MeshSG3
+    2100160: class_b_MeshSG1
+    2100162: class_b_MeshSG2
+    2100164: class_b_Mesh_FBXASC04011FBXASC041SG1
+    2100166: class_b_Mesh_FBXASC04011FBXASC041SG
+    2100168: class_b_Mesh_FBXASC0407FBXASC041SG1
+    2100170: class_b_Mesh_FBXASC0407FBXASC041SG
+    2100172: class_b_Mesh_FBXASC0407FBXASC041SG2
+    2100174: class_b_Mesh_FBXASC0407FBXASC041SG6
+    2100176: class_b_Mesh_FBXASC0407FBXASC041SG3
+    2100178: class_b_Mesh_FBXASC0407FBXASC041SG4
+    2100180: class_b_Mesh_FBXASC0407FBXASC041SG5
+    2100182: class_b_Mesh_FBXASC04010FBXASC041SG
+    2100184: class_b_Mesh_FBXASC04010FBXASC041SG1
+    2100186: class_b_Mesh_FBXASC04020FBXASC041_dup_2SG1
+    2100188: class_b_Mesh_FBXASC04020FBXASC041_dup_2SG
+    2100190: class_b_Mesh_FBXASC04020FBXASC041_dup_2SG2
+    2100192: class_b_Mesh_FBXASC04021FBXASC041SG1
+    2100194: class_b_Mesh_FBXASC04021FBXASC041SG
+    2100196: class_b_Mesh_FBXASC04021FBXASC041SG2
+    2100198: class_b_Mesh_FBXASC04020FBXASC041SG1
+    2100200: class_b_Mesh_FBXASC04020FBXASC041SG
+    2100202: class_b_Mesh_FBXASC04020FBXASC041SG2
+    2100204: class_b_Mesh_FBXASC04021FBXASC041_dup_4SG1
+    2100206: class_b_Mesh_FBXASC04021FBXASC041_dup_4SG
+    2100208: class_b_Mesh_FBXASC04021FBXASC041_dup_4SG2
+    2100210: class_b_Mesh_FBXASC04020FBXASC041_dup_4SG1
+    2100212: class_b_Mesh_FBXASC04020FBXASC041_dup_4SG
+    2100214: class_b_Mesh_FBXASC04020FBXASC041_dup_4SG2
+    2100216: class_b_Mesh_FBXASC04021FBXASC041_dup_3SG1
+    2100218: class_b_Mesh_FBXASC04021FBXASC041_dup_3SG
+    2100220: class_b_Mesh_FBXASC04021FBXASC041_dup_3SG2
+    2100222: class_b_Mesh_FBXASC04020FBXASC041_dup_3SG1
+    2100224: class_b_Mesh_FBXASC04020FBXASC041_dup_3SG
+    2100226: class_b_Mesh_FBXASC04020FBXASC041_dup_3SG2
+    2100228: class_b_Mesh_FBXASC04021FBXASC041_dup_2SG1
+    2100230: class_b_Mesh_FBXASC04021FBXASC041_dup_2SG
+    2100232: class_b_Mesh_FBXASC04021FBXASC041_dup_2SG2
+    2100234: class_b_Mesh_FBXASC0402FBXASC041_dup_23SG1
+    2100236: class_b_Mesh_FBXASC0402FBXASC041_dup_23SG2
+    2100238: class_b_Mesh_FBXASC0402FBXASC041_dup_23SG
+    2100240: class_b_Mesh_FBXASC0402FBXASC041_dup_7SG1
+    2100242: class_b_Mesh_FBXASC0402FBXASC041_dup_7SG2
+    2100244: class_b_Mesh_FBXASC0402FBXASC041_dup_7SG
+    2100246: class_b_Mesh_FBXASC0402FBXASC041_dup_22SG1
+    2100248: class_b_Mesh_FBXASC0402FBXASC041_dup_22SG2
+    2100250: class_b_Mesh_FBXASC0402FBXASC041_dup_22SG
+    2100252: class_b_Mesh_FBXASC0402FBXASC041_dup_21SG1
+    2100254: class_b_Mesh_FBXASC0402FBXASC041_dup_21SG2
+    2100256: class_b_Mesh_FBXASC0402FBXASC041_dup_21SG
+    2100258: class_b_Mesh_FBXASC0403FBXASC041_dup_11SG1
+    2100260: class_b_Mesh_FBXASC0403FBXASC041_dup_11SG2
+    2100262: class_b_Mesh_FBXASC0403FBXASC041_dup_11SG
+    2100264: class_b_Mesh_FBXASC0402FBXASC041_dup_20SG1
+    2100266: class_b_Mesh_FBXASC0402FBXASC041_dup_20SG2
+    2100268: class_b_Mesh_FBXASC0402FBXASC041_dup_20SG
+    2100270: class_b_Mesh_FBXASC0402FBXASC041_dup_19SG1
+    2100272: class_b_Mesh_FBXASC0402FBXASC041_dup_19SG2
+    2100274: class_b_Mesh_FBXASC0402FBXASC041_dup_19SG
+    2100276: class_b_Mesh_FBXASC0403FBXASC041_dup_10SG1
+    2100278: class_b_Mesh_FBXASC0403FBXASC041_dup_10SG2
+    2100280: class_b_Mesh_FBXASC0403FBXASC041_dup_10SG
+    2100282: class_b_Mesh_FBXASC0402FBXASC041_dup_8SG1
+    2100284: class_b_Mesh_FBXASC0402FBXASC041_dup_8SG2
+    2100286: class_b_Mesh_FBXASC0402FBXASC041_dup_8SG
+    2100288: class_b_Mesh_FBXASC0403FBXASC041_dup_5SG1
+    2100290: class_b_Mesh_FBXASC0403FBXASC041_dup_5SG2
+    2100292: class_b_Mesh_FBXASC0403FBXASC041_dup_5SG
+    2100294: class_b_Mesh_FBXASC0402FBXASC041_dup_17SG1
+    2100296: class_b_Mesh_FBXASC0402FBXASC041_dup_17SG2
+    2100298: class_b_Mesh_FBXASC0402FBXASC041_dup_17SG
+    2100300: class_b_Mesh_FBXASC0402FBXASC041_dup_9SG1
+    2100302: class_b_Mesh_FBXASC0402FBXASC041_dup_9SG2
+    2100304: class_b_Mesh_FBXASC0402FBXASC041_dup_9SG
+    2100306: class_b_Mesh_FBXASC0402FBXASC041_dup_16SG1
+    2100308: class_b_Mesh_FBXASC0402FBXASC041_dup_16SG2
+    2100310: class_b_Mesh_FBXASC0402FBXASC041_dup_16SG
+    2100312: class_b_Mesh_FBXASC0402FBXASC041_dup_15SG1
+    2100314: class_b_Mesh_FBXASC0402FBXASC041_dup_15SG2
+    2100316: class_b_Mesh_FBXASC0402FBXASC041_dup_15SG
+    2100318: class_b_Mesh_FBXASC0403FBXASC041_dup_8SG1
+    2100320: class_b_Mesh_FBXASC0403FBXASC041_dup_8SG2
+    2100322: class_b_Mesh_FBXASC0403FBXASC041_dup_8SG
+    2100324: class_b_Mesh_FBXASC0402FBXASC041_dup_14SG1
+    2100326: class_b_Mesh_FBXASC0402FBXASC041_dup_14SG2
+    2100328: class_b_Mesh_FBXASC0402FBXASC041_dup_14SG
+    2100330: class_b_Mesh_FBXASC0402FBXASC041_dup_13SG1
+    2100332: class_b_Mesh_FBXASC0402FBXASC041_dup_13SG2
+    2100334: class_b_Mesh_FBXASC0402FBXASC041_dup_13SG
+    2100336: class_b_Mesh_FBXASC0403FBXASC041_dup_7SG1
+    2100338: class_b_Mesh_FBXASC0403FBXASC041_dup_7SG2
+    2100340: class_b_Mesh_FBXASC0403FBXASC041_dup_7SG
+    2100342: class_b_Mesh_FBXASC0403FBXASC041_dup_4SG1
+    2100344: class_b_Mesh_FBXASC0403FBXASC041_dup_4SG2
+    2100346: class_b_Mesh_FBXASC0403FBXASC041_dup_4SG
+    2100348: class_b_Mesh_FBXASC0402FBXASC041_dup_10SG1
+    2100350: class_b_Mesh_FBXASC0402FBXASC041_dup_10SG2
+    2100352: class_b_Mesh_FBXASC0402FBXASC041_dup_10SG
+    2100354: class_b_Mesh_FBXASC0402FBXASC041_dup_5SG1
+    2100356: class_b_Mesh_FBXASC0402FBXASC041_dup_5SG2
+    2100358: class_b_Mesh_FBXASC0402FBXASC041_dup_5SG
+    2100360: class_b_Mesh_FBXASC0402FBXASC041_dup_4SG1
+    2100362: class_b_Mesh_FBXASC0402FBXASC041_dup_4SG2
+    2100364: class_b_Mesh_FBXASC0402FBXASC041_dup_4SG
+    2100366: class_b_Mesh_FBXASC0402FBXASC041_dup_3SG1
+    2100368: class_b_Mesh_FBXASC0402FBXASC041_dup_3SG2
+    2100370: class_b_Mesh_FBXASC0402FBXASC041_dup_3SG
+    2100372: class_b_Mesh_FBXASC0402FBXASC041_dup_11SG1
+    2100374: class_b_Mesh_FBXASC0402FBXASC041_dup_11SG2
+    2100376: class_b_Mesh_FBXASC0402FBXASC041_dup_11SG
+    2100378: class_b_Mesh_FBXASC0402FBXASC041_dup_2SG1
+    2100380: class_b_Mesh_FBXASC0402FBXASC041_dup_2SG2
+    2100382: class_b_Mesh_FBXASC0402FBXASC041_dup_2SG
+    2100384: class_b_Mesh_FBXASC0402FBXASC041SG1
+    2100386: class_b_Mesh_FBXASC0402FBXASC041SG2
+    2100388: class_b_Mesh_FBXASC0402FBXASC041SG
+    2100390: class_b_Mesh_FBXASC0402FBXASC041_dup_12SG1
+    2100392: class_b_Mesh_FBXASC0402FBXASC041_dup_12SG2
+    2100394: class_b_Mesh_FBXASC0402FBXASC041_dup_12SG
+    2100396: class_b_Mesh_FBXASC0403FBXASC041_dup_3SG1
+    2100398: class_b_Mesh_FBXASC0403FBXASC041_dup_3SG2
+    2100400: class_b_Mesh_FBXASC0403FBXASC041_dup_3SG
+    2100402: class_b_Mesh_FBXASC0403FBXASC041_dup_6SG1
+    2100404: class_b_Mesh_FBXASC0403FBXASC041_dup_6SG2
+    2100406: class_b_Mesh_FBXASC0403FBXASC041_dup_6SG
+    2100408: class_b_Mesh_FBXASC0402FBXASC041_dup_6SG1
+    2100410: class_b_Mesh_FBXASC0402FBXASC041_dup_6SG2
+    2100412: class_b_Mesh_FBXASC0402FBXASC041_dup_6SG
+    2100414: class_b_Mesh_FBXASC0403FBXASC041_dup_9SG1
+    2100416: class_b_Mesh_FBXASC0403FBXASC041_dup_9SG2
+    2100418: class_b_Mesh_FBXASC0403FBXASC041_dup_9SG
+    2100420: class_b_Mesh_FBXASC0402FBXASC041_dup_24SG1
+    2100422: class_b_Mesh_FBXASC0402FBXASC041_dup_24SG2
+    2100424: class_b_Mesh_FBXASC0402FBXASC041_dup_24SG
+    2100426: class_b_Mesh_FBXASC0402FBXASC041_dup_18SG1
+    2100428: class_b_Mesh_FBXASC0402FBXASC041_dup_18SG2
+    2100430: class_b_Mesh_FBXASC0402FBXASC041_dup_18SG
+    2100432: class_b_Mesh_FBXASC0403FBXASC041_dup_12SG1
+    2100434: class_b_Mesh_FBXASC0403FBXASC041_dup_12SG2
+    2100436: class_b_Mesh_FBXASC0403FBXASC041_dup_12SG
+    2100438: class_b_Mesh_FBXASC0403FBXASC041SG1
+    2100440: class_b_Mesh_FBXASC0403FBXASC041SG2
+    2100442: class_b_Mesh_FBXASC0403FBXASC041SG
+    2100444: class_b_Mesh_FBXASC0403FBXASC041_dup_2SG1
+    2100446: class_b_Mesh_FBXASC0403FBXASC041_dup_2SG2
+    2100448: class_b_Mesh_FBXASC0403FBXASC041_dup_2SG
+    2300000: ban1
+    2300002: ban2
+    2300004: Biao
+    2300006: Chuang01
+    2300008: Chuang02
+    2300010: Chuang03
+    2300012: Chuang04
+    2300014: Chuang05
+    2300016: Chuang06
+    2300018: Chuang07
+    2300020: Chuang08
+    2300022: deng01
+    2300024: deng02
+    2300026: deng03
+    2300028: deng04
+    2300030: deng05
+    2300032: deng06
+    2300034: deng07
+    2300036: deng08
+    2300038: deng09
+    2300040: deng10
+    2300042: deng12
+    2300044: deng13
+    2300046: DiBan
+    2300048: diqiuyi
+    2300050: gui1
+    2300052: gui2
+    2300054: gun
+    2300056: heiban
+    2300058: lajitong1
+    2300060: lajitong2
+    2300062: lajitong3
+    2300064: Men
+    2300066: Qiang01
+    2300068: Qiang02
+    2300070: Qiang03
+    2300072: Qiang04
+    2300074: TianHuaBan 1
+    2300076: Yi01
+    2300078: Yi02
+    2300080: Yi03
+    2300082: Yi04
+    2300084: Yi05
+    2300086: Yi06
+    2300088: Yi07
+    2300090: Yi08
+    2300092: Yi09
+    2300094: Yi10
+    2300096: Yi11
+    2300098: Yi12
+    2300100: Yi13
+    2300102: Yi14
+    2300104: Yi15
+    2300106: Yi16
+    2300108: Yi17
+    2300110: Yi18
+    2300112: Yi19
+    2300114: Yi20
+    2300116: Yi21
+    2300118: Yi22
+    2300120: Yi23
+    2300122: Yi24
+    2300124: Zhuo01
+    2300126: Zhuo02
+    2300128: Zhuo03
+    2300130: Zhuo04
+    2300132: Zhuo05
+    2300134: Zhuo06
+    2300136: Zhuo07
+    2300138: Zhuo08
+    2300140: Zhuo09
+    2300142: Zhuo10
+    2300144: Zhuo11
+    2300146: Zhuo12
+    3300000: ban1
+    3300002: ban2
+    3300004: Biao
+    3300006: Chuang01
+    3300008: Chuang02
+    3300010: Chuang03
+    3300012: Chuang04
+    3300014: Chuang05
+    3300016: Chuang06
+    3300018: Chuang07
+    3300020: Chuang08
+    3300022: deng01
+    3300024: deng02
+    3300026: deng03
+    3300028: deng04
+    3300030: deng05
+    3300032: deng06
+    3300034: deng07
+    3300036: deng08
+    3300038: deng09
+    3300040: deng10
+    3300042: deng12
+    3300044: deng13
+    3300046: DiBan
+    3300048: diqiuyi
+    3300050: gui1
+    3300052: gui2
+    3300054: gun
+    3300056: heiban
+    3300058: lajitong1
+    3300060: lajitong2
+    3300062: lajitong3
+    3300064: Men
+    3300066: Qiang01
+    3300068: Qiang02
+    3300070: Qiang03
+    3300072: Qiang04
+    3300074: TianHuaBan 1
+    3300076: Yi01
+    3300078: Yi02
+    3300080: Yi03
+    3300082: Yi04
+    3300084: Yi05
+    3300086: Yi06
+    3300088: Yi07
+    3300090: Yi08
+    3300092: Yi09
+    3300094: Yi10
+    3300096: Yi11
+    3300098: Yi12
+    3300100: Yi13
+    3300102: Yi14
+    3300104: Yi15
+    3300106: Yi16
+    3300108: Yi17
+    3300110: Yi18
+    3300112: Yi19
+    3300114: Yi20
+    3300116: Yi21
+    3300118: Yi22
+    3300120: Yi23
+    3300122: Yi24
+    3300124: Zhuo01
+    3300126: Zhuo02
+    3300128: Zhuo03
+    3300130: Zhuo04
+    3300132: Zhuo05
+    3300134: Zhuo06
+    3300136: Zhuo07
+    3300138: Zhuo08
+    3300140: Zhuo09
+    3300142: Zhuo10
+    3300144: Zhuo11
+    3300146: Zhuo12
+    4300000: DiBan
+    4300002: ban1
+    4300004: gui1
+    4300006: diqiuyi
+    4300008: Men
+    4300010: lajitong1
+    4300012: gun
+    4300014: gui2
+    4300016: Biao
+    4300018: lajitong2
+    4300020: lajitong3
+    4300022: ban2
+    4300024: heiban
+    4300026: deng01
+    4300028: deng02
+    4300030: deng03
+    4300032: deng04
+    4300034: deng05
+    4300036: deng06
+    4300038: deng07
+    4300040: deng08
+    4300042: deng09
+    4300044: TianHuaBan
+    4300046: deng12
+    4300048: deng10
+    4300050: deng13
+    4300052: Qiang01
+    4300054: Qiang02
+    4300056: Qiang03
+    4300058: Qiang04
+    4300060: Chuang01
+    4300062: Chuang02
+    4300064: Chuang03
+    4300066: Chuang04
+    4300068: Chuang05
+    4300070: Chuang06
+    4300072: Chuang07
+    4300074: Chuang08
+    4300076: Yi24
+    4300078: Yi11
+    4300080: Yi19
+    4300082: Yi20
+    4300084: Zhuo11
+    4300086: Yi21
+    4300088: Yi22
+    4300090: Zhuo12
+    4300092: Yi10
+    4300094: Zhuo05
+    4300096: Yi13
+    4300098: Yi09
+    4300100: Yi14
+    4300102: Yi15
+    4300104: Zhuo08
+    4300106: Yi16
+    4300108: Yi17
+    4300110: Zhuo07
+    4300112: Zhuo06
+    4300114: Yi08
+    4300116: Yi01
+    4300118: Yi02
+    4300120: Yi03
+    4300122: Yi07
+    4300124: Yi04
+    4300126: Yi05
+    4300128: Yi12
+    4300130: Zhuo03
+    4300132: Zhuo04
+    4300134: Yi06
+    4300136: Zhuo09
+    4300138: Yi23
+    4300140: Yi18
+    4300142: Zhuo10
+    4300144: Zhuo01
+    4300146: Zhuo02
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_MeshSG
+    second: {fileID: 2100000, guid: b29aede807753514c87d855ae2f29ad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_MeshSG1
+    second: {fileID: 2100000, guid: b9c66e5dcf7d11b4cb52fb150446e64d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_MeshSG2
+    second: {fileID: 2100000, guid: e14eed54192c87942b87f9c28a0283dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_MeshSG3
+    second: {fileID: 2100000, guid: 55965976879f76340af30b4270a31aaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04010FBXASC041SG
+    second: {fileID: 2100000, guid: c9f2eaeba64cd1444ad83813219b559a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04010FBXASC041SG1
+    second: {fileID: 2100000, guid: fb54bb1cecf53c94d8830505dcbec4cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04011FBXASC041SG
+    second: {fileID: 2100000, guid: 8a3d4f7f00f407247a4181fe001b814a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04011FBXASC041SG1
+    second: {fileID: 2100000, guid: e73429c3e990b0b4ca6c944dc0ade673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04012FBXASC041SG
+    second: {fileID: 2100000, guid: 4cf58ef324b17fc44bf308fb1203b8c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04013FBXASC041SG
+    second: {fileID: 2100000, guid: cc05e83882792f0469c3a01f290b2b25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04013FBXASC041SG1
+    second: {fileID: 2100000, guid: 1d66ba521a2747a4bb8add9be539ce6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04014FBXASC041SG
+    second: {fileID: 2100000, guid: f5ab7d2115bc84649991796f723074a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04014FBXASC041SG1
+    second: {fileID: 2100000, guid: e71dc3bc16f854840b1238310b0c0272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04014FBXASC041SG2
+    second: {fileID: 2100000, guid: 1b06b61f41612d546b95d4d5e2b66293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04015FBXASC041SG
+    second: {fileID: 2100000, guid: d50e780b752650b4eb880cad42bf3360, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04015FBXASC041SG1
+    second: {fileID: 2100000, guid: 933ae507363bcde448e3a5afb3dc1e1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04015FBXASC041SG2
+    second: {fileID: 2100000, guid: 5ec8caf48250f004bb0db45b337fcb94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04015FBXASC041SG3
+    second: {fileID: 2100000, guid: 0028e3871b0fbb34798d3e59b30159f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04015FBXASC041SG4
+    second: {fileID: 2100000, guid: 1aeaed92d88649941a070afc5e646bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04015FBXASC041SG5
+    second: {fileID: 2100000, guid: b5409ee01bc56244fbc365837339e5dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04016FBXASC041SG
+    second: {fileID: 2100000, guid: 19e71071c2c4fbd4f90f9e402c26589c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04016FBXASC041SG1
+    second: {fileID: 2100000, guid: 42d3059ac7b0d2943a5c13c9efa8734d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04016FBXASC041SG2
+    second: {fileID: 2100000, guid: 46529e3f23237ba428fb9cc4ac1dd636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04016FBXASC041SG3
+    second: {fileID: 2100000, guid: d5bda632367cbfb42ac1267ee23449a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04017FBXASC041SG
+    second: {fileID: 2100000, guid: 7407cd9ba204ffb48ac4cfde099151f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04017FBXASC041SG1
+    second: {fileID: 2100000, guid: 24f9090dbdfc2884d8d5c1575c745ae0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04018FBXASC041SG
+    second: {fileID: 2100000, guid: f32def1bde3adb743af458d383a46d0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04019FBXASC041SG
+    second: {fileID: 2100000, guid: 13029e27349eec144b340fcc8429137f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04019FBXASC041_dup_2SG
+    second: {fileID: 2100000, guid: ce87ef86f6937f24381211fa6dee44af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04019FBXASC041_dup_3SG
+    second: {fileID: 2100000, guid: eb067fe940dc4f2408a01ac60377d262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041SG
+    second: {fileID: 2100000, guid: 202dff478597fd548bca119e1fb0df08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041SG1
+    second: {fileID: 2100000, guid: 066578b3a9e6cbc4dba1c5a1ec18fdca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041SG2
+    second: {fileID: 2100000, guid: 402e311261715484b964dc614dd6e6e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_2SG
+    second: {fileID: 2100000, guid: 5848a80d287939449a01c379066a9fbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_2SG1
+    second: {fileID: 2100000, guid: e91b4bee62a50e843b67dd1c5b47d701, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_2SG2
+    second: {fileID: 2100000, guid: 3a47c54e0b628d0448b3a9cc10ec571c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_3SG
+    second: {fileID: 2100000, guid: fef87f475c37b5842be1cb19b5863be9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_3SG1
+    second: {fileID: 2100000, guid: 83dc6d629d5e4744391488ec996e2551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_3SG2
+    second: {fileID: 2100000, guid: 43883118cdc18bd41b3c2666bd19c8cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_4SG
+    second: {fileID: 2100000, guid: ae34e32098abff9409292556b8ea43bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_4SG1
+    second: {fileID: 2100000, guid: a6cc610def6c98f4b8f4123f9c4cdb19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04020FBXASC041_dup_4SG2
+    second: {fileID: 2100000, guid: 0a606c7dd2de75a429def10ca772d0e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041SG
+    second: {fileID: 2100000, guid: 42430af0df92687418b7ab0899b65043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041SG1
+    second: {fileID: 2100000, guid: 81338f46f2a88a942b12bfe2e5be7a30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041SG2
+    second: {fileID: 2100000, guid: 85369c49b3d726c49bf37ba6b8d25d75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_2SG
+    second: {fileID: 2100000, guid: 4bd62c795145c674b8c70e4c5326d96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_2SG1
+    second: {fileID: 2100000, guid: a309843f09478354f929ca442065a70b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_2SG2
+    second: {fileID: 2100000, guid: ac5a3c83e6392bf4e84db04af9f89c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_3SG
+    second: {fileID: 2100000, guid: 01755e98c1f5b2d42a27febb36604273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_3SG1
+    second: {fileID: 2100000, guid: f346b359c6ca1aa489a8c0ec94b35406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_3SG2
+    second: {fileID: 2100000, guid: bfcdf65b652488b419e5ea051854bac1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_4SG
+    second: {fileID: 2100000, guid: 6c1e6c43c5e526b4d94d07aabbdef7e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_4SG1
+    second: {fileID: 2100000, guid: 646cb1a9491abc04d95b44ac7eaaab1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC04021FBXASC041_dup_4SG2
+    second: {fileID: 2100000, guid: 012086558ad2c5c4e8aa64442c7c2174, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041SG
+    second: {fileID: 2100000, guid: eb86070a6d936de45aa6d1b3de050879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041SG1
+    second: {fileID: 2100000, guid: e36e9aba56f84294494e03c27502bf78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041SG2
+    second: {fileID: 2100000, guid: bab900b1eafd73540b828338e8c2aab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_10SG
+    second: {fileID: 2100000, guid: 79243d7cf691c154abf287c00e5c45c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_10SG1
+    second: {fileID: 2100000, guid: 123cd280439e2764ea040b5ce0a05ba3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_10SG2
+    second: {fileID: 2100000, guid: d4eb428bc0cd9b44abe838925ded2a2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_11SG
+    second: {fileID: 2100000, guid: 716750247c498664b8c8b36a74cf1ffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_11SG1
+    second: {fileID: 2100000, guid: a9b7cbf780551ba47acd711935351d51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_11SG2
+    second: {fileID: 2100000, guid: eccdce54bff598d448e5694d3586ee73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_12SG
+    second: {fileID: 2100000, guid: 001db22e8c116a448a70c065c9546690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_12SG1
+    second: {fileID: 2100000, guid: 690e30768067f0b4aba94d5558f1f2b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_12SG2
+    second: {fileID: 2100000, guid: b925035a2c354334d8f6bf7d8115e975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_13SG
+    second: {fileID: 2100000, guid: 3449b49dae78ee64ea13493ffc038767, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_13SG1
+    second: {fileID: 2100000, guid: 2752195e00ed74a42850bf743a5b978f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_13SG2
+    second: {fileID: 2100000, guid: 1d30b59338e039c4cb45ee002e38000c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_14SG
+    second: {fileID: 2100000, guid: a1f29cf84f4cc5a40b21e5268230a5b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_14SG1
+    second: {fileID: 2100000, guid: 96d3e25701fa7704bb4493d4a88afce8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_14SG2
+    second: {fileID: 2100000, guid: 6952c1db4ad5ecf4c8dca57d3ed8323a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_15SG
+    second: {fileID: 2100000, guid: 2f480ba31a774bc4a8d529ffd4c4437e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_15SG1
+    second: {fileID: 2100000, guid: 181696627674fdd4784a75292cb89380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_15SG2
+    second: {fileID: 2100000, guid: de29da27622b1244d9159fb37c5069ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_16SG
+    second: {fileID: 2100000, guid: 5fc56fd5f7f7293448fd9801db485027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_16SG1
+    second: {fileID: 2100000, guid: 7b490cb202941194aa3f6768c0d87330, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_16SG2
+    second: {fileID: 2100000, guid: ad990acd9f7963e4e96711fe179eef0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_17SG
+    second: {fileID: 2100000, guid: 14ab60c96df964e4b96d839312c3ef06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_17SG1
+    second: {fileID: 2100000, guid: e3e10e127d614a44eaba58c52c19ec5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_17SG2
+    second: {fileID: 2100000, guid: 41691726e117d044d938a76644126556, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_18SG
+    second: {fileID: 2100000, guid: d077218cea3a79440a3ae920fe383d75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_18SG1
+    second: {fileID: 2100000, guid: c04fb4683f1ea5e408e37590158bf747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_18SG2
+    second: {fileID: 2100000, guid: ec5ac26f329120a44971ae902d0591fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_19SG
+    second: {fileID: 2100000, guid: 3217e1533c6c9d948bb369edcf4e2f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_19SG1
+    second: {fileID: 2100000, guid: 2ecd91c6c9b78ec48b34b8fb50ad15ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_19SG2
+    second: {fileID: 2100000, guid: b1ffa7db1bef71142afbcec6183bd015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_20SG
+    second: {fileID: 2100000, guid: d6d09532c2526d741a068245616ace4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_20SG1
+    second: {fileID: 2100000, guid: adab389c99981f546b20cc901f5eafdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_20SG2
+    second: {fileID: 2100000, guid: a832b3325f1b0f54fb0c7ffa8e0cc327, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_21SG
+    second: {fileID: 2100000, guid: b228f4f80968f154eb8c18585b987b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_21SG1
+    second: {fileID: 2100000, guid: cd04b97afd6028348ad0c4817f556799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_21SG2
+    second: {fileID: 2100000, guid: 5372a7701f4b12549bb2de3ff0ebe6fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_22SG
+    second: {fileID: 2100000, guid: 9d81086f5f98a5644b796ca916e8f3c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_22SG1
+    second: {fileID: 2100000, guid: aefff5d9a7880f04b9200af9351bea1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_22SG2
+    second: {fileID: 2100000, guid: 82aebe5a713455c40808afdc6a1dabb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_23SG
+    second: {fileID: 2100000, guid: 517d06d6733464e4f8e009d6382279a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_23SG1
+    second: {fileID: 2100000, guid: be0d53e8a0faba74baae1c8c2efd3ecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_23SG2
+    second: {fileID: 2100000, guid: a3cf614ef89c7f548a84f333bcdacb95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_24SG
+    second: {fileID: 2100000, guid: b0749ccb5f590044db1c0d5028153551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_24SG1
+    second: {fileID: 2100000, guid: 532b552b85f5edf40868662610a229b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_24SG2
+    second: {fileID: 2100000, guid: edb50afd19d8cf042bda8818ff6dfc5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_2SG
+    second: {fileID: 2100000, guid: 8aa3522545e868048b6897b2ce4dfc30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_2SG1
+    second: {fileID: 2100000, guid: af6b628dc013b654a9b6c95f0623b6ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_2SG2
+    second: {fileID: 2100000, guid: 4d9e529d3bead3d4780c9226c7f2a65f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_3SG
+    second: {fileID: 2100000, guid: 2ea8126fdbfd449428d7c939835cc96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_3SG1
+    second: {fileID: 2100000, guid: dac67b52ba2d62c4790c337171a6b7b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_3SG2
+    second: {fileID: 2100000, guid: 0523b7730d019b843a52f794e6cae6a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_4SG
+    second: {fileID: 2100000, guid: 940d0f2e34ceab34e946cdbdfad2b0bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_4SG1
+    second: {fileID: 2100000, guid: 299187e4d6caf9b4f96a20a4d0b819c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_4SG2
+    second: {fileID: 2100000, guid: 5afe2233d404d274383b45fdfc454586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_5SG
+    second: {fileID: 2100000, guid: 32620cac79cc2c841be5b589034e9b8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_5SG1
+    second: {fileID: 2100000, guid: b78b36d490e69f84a8e405d819e18248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_5SG2
+    second: {fileID: 2100000, guid: 54984ae43accd4648ba64848a0c400ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_6SG
+    second: {fileID: 2100000, guid: 828d3292aac2436449162ae0d2204d08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_6SG1
+    second: {fileID: 2100000, guid: 234fc538d68a018468b323e6ec3a487f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_6SG2
+    second: {fileID: 2100000, guid: f17f13d86ad23734482defb6d1eb2d13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_7SG
+    second: {fileID: 2100000, guid: 597680e9f3af5d048b20e0dd86933177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_7SG1
+    second: {fileID: 2100000, guid: a4c520170d5f592408b3fd0574f5ca2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_7SG2
+    second: {fileID: 2100000, guid: 63d8cfbe644e63744bb1ff12e5a9ba09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_8SG
+    second: {fileID: 2100000, guid: 9e16519649d15824f94d2fb6752d1065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_8SG1
+    second: {fileID: 2100000, guid: 5564f37d4f7842444a26bf4a87f0ee29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_8SG2
+    second: {fileID: 2100000, guid: 1b42ab0568b780244b8c86389bc95b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_9SG
+    second: {fileID: 2100000, guid: 7e900c5c365431f4ca65c542f8311750, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_9SG1
+    second: {fileID: 2100000, guid: 9c5d9b6850ab1cb4788be81693c1d034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0402FBXASC041_dup_9SG2
+    second: {fileID: 2100000, guid: defdd9fe5dc465243a57d9b328642b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041SG
+    second: {fileID: 2100000, guid: b7eb394ba8c26724e97f11e388a70ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041SG1
+    second: {fileID: 2100000, guid: a72a012279399f54091f57662f24bf07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041SG2
+    second: {fileID: 2100000, guid: 8de402734193b284caccb510ba330a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_10SG
+    second: {fileID: 2100000, guid: 162ef015329d7b2449c105fc25405c74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_10SG1
+    second: {fileID: 2100000, guid: 1f9b94d9f89b64d4d9f0d37029f3f705, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_10SG2
+    second: {fileID: 2100000, guid: 0b2dba27f9cfbe54da1f72be6fac93b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_11SG
+    second: {fileID: 2100000, guid: e868574a97cd6714c874da87e47ce0f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_11SG1
+    second: {fileID: 2100000, guid: a97b88e8c0ddfd74da5aa404ada08232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_11SG2
+    second: {fileID: 2100000, guid: 73f73b97d4b98954cb9473c1b0eab383, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_12SG
+    second: {fileID: 2100000, guid: ed70da782f39b0848888a611436f89b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_12SG1
+    second: {fileID: 2100000, guid: 2fcc217d71dcad849bf2e58e44fd4106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_12SG2
+    second: {fileID: 2100000, guid: aa806b1dde9cc5e4390ab3f7d55f04aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_2SG
+    second: {fileID: 2100000, guid: 6f8327fad10a0454e892409bd498680e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_2SG1
+    second: {fileID: 2100000, guid: b19661d473b162f4686c7111570f7e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_2SG2
+    second: {fileID: 2100000, guid: 4e2e37724db4a8c49a9bff840f2e4bd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_3SG
+    second: {fileID: 2100000, guid: 0cd402c7a7e58344b869ed523ef6809e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_3SG1
+    second: {fileID: 2100000, guid: 8a94a1af81122ec48a060b3f5a1394fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_3SG2
+    second: {fileID: 2100000, guid: 19950d409c30b3e4d82944eaa06407ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_4SG
+    second: {fileID: 2100000, guid: 676e405bba37a594d9f2f0c8bbf99ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_4SG1
+    second: {fileID: 2100000, guid: 3b8dcaf1e2cae374f9780713d9790b98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_4SG2
+    second: {fileID: 2100000, guid: b5e7a69b8a8bc17488cfba216835a428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_5SG
+    second: {fileID: 2100000, guid: 1c4a46b09cdd0eb4d9db2bf16c304d58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_5SG1
+    second: {fileID: 2100000, guid: 90fbacd18b900734592fc2eef070a1ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_5SG2
+    second: {fileID: 2100000, guid: 3277e305b4875e3438e81f63230b0d5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_6SG
+    second: {fileID: 2100000, guid: 7cb1bcd9fcd98de439f4f3d610861955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_6SG1
+    second: {fileID: 2100000, guid: 4fcc5b268aa54e64fb2de293810fb2c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_6SG2
+    second: {fileID: 2100000, guid: 1292eb9352a0abf488d72ce80e5050fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_7SG
+    second: {fileID: 2100000, guid: 46ad955be10337b498ba32b898ca07ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_7SG1
+    second: {fileID: 2100000, guid: 4e3031b0a9734864088a37cb6201038f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_7SG2
+    second: {fileID: 2100000, guid: d4e4250a2f44045499da9830a04777ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_8SG
+    second: {fileID: 2100000, guid: 164aa0af2c1ba704a8addb433a5d516a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_8SG1
+    second: {fileID: 2100000, guid: 19d6b224dca37704e82dd86b1aa28706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_8SG2
+    second: {fileID: 2100000, guid: 104c501a08e0d9a4dba678749bd77d44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_9SG
+    second: {fileID: 2100000, guid: a30ee5437365595448bbd05f771317fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_9SG1
+    second: {fileID: 2100000, guid: 131da8f7b1a421b45aba8f8797435027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0403FBXASC041_dup_9SG2
+    second: {fileID: 2100000, guid: 3a031d3991b02be45964770d782b6ac2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041SG
+    second: {fileID: 2100000, guid: 8f096c0f1c672b84caff8e633cf0d360, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041SG1
+    second: {fileID: 2100000, guid: b4fc11d6a540f774d980b8aad73f1e0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041SG2
+    second: {fileID: 2100000, guid: d683e4cffb59ffc43abb28581d5bb013, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041SG3
+    second: {fileID: 2100000, guid: d0f640406faa9f7439a4379b7ecfd9b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_2SG
+    second: {fileID: 2100000, guid: 9e90bb74d4ce7484fa9f0639fb255fe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_2SG1
+    second: {fileID: 2100000, guid: 3c5849789f74a2d4aa06e1240c0f83de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_2SG2
+    second: {fileID: 2100000, guid: c20475187a24d85409657d8229563c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_2SG3
+    second: {fileID: 2100000, guid: 641f2019fbbb616419473248cad4f641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_3SG
+    second: {fileID: 2100000, guid: c83085876723dab4e9c5c4e1313fb212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_3SG1
+    second: {fileID: 2100000, guid: a882573fbe1324f439f3d6232967b90c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_3SG2
+    second: {fileID: 2100000, guid: d2cec0badd67dc4418b58ab14b47afb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_3SG3
+    second: {fileID: 2100000, guid: 640b1f209ad611842aaeae1cb310d3af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_4SG
+    second: {fileID: 2100000, guid: 5ef239a44d364e74f87702d977ae2a48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_4SG1
+    second: {fileID: 2100000, guid: ca4a31e7096c45843aed0b13896c59cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_4SG2
+    second: {fileID: 2100000, guid: f324bfd30e509714b99fee7f32067858, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_4SG3
+    second: {fileID: 2100000, guid: b7d8450280239ee418ca3d5937b50be4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_5SG
+    second: {fileID: 2100000, guid: 76ac5fb5efea0cb47bd8b3671caad2aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_5SG1
+    second: {fileID: 2100000, guid: b2dd13ae376cac7499fa54e1b027bf57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_5SG2
+    second: {fileID: 2100000, guid: 082abb3d7135857429a0a4c2bc5aed21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_5SG3
+    second: {fileID: 2100000, guid: 2dae2ebef378df041b514e346e8c69f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_6SG
+    second: {fileID: 2100000, guid: f46a1e3be766c56448d486b7356a1e19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_6SG1
+    second: {fileID: 2100000, guid: 08f731380289add49a531be3c84f67c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_6SG2
+    second: {fileID: 2100000, guid: 6c37e65d85e562b47b4cab928544ea90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_6SG3
+    second: {fileID: 2100000, guid: ce465378919c5b24fb10c6d9a28aa04d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_7SG
+    second: {fileID: 2100000, guid: 42f029650fc5987498f4f993d6255b6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_7SG1
+    second: {fileID: 2100000, guid: 7740fe4a22642164395f92ebe264e1a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_7SG2
+    second: {fileID: 2100000, guid: 2b877506d48f90f46acbd3e60dba82ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_7SG3
+    second: {fileID: 2100000, guid: a59678ffec823cc419e6686752ffb68b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_8SG
+    second: {fileID: 2100000, guid: 89c9ece0ff089bb48bc8f59938ff570c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_8SG1
+    second: {fileID: 2100000, guid: ee780bb007cf3a140a2e9033b80a78ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_8SG2
+    second: {fileID: 2100000, guid: ff2c43de26622424cb20d2b5924cc798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0404FBXASC041_dup_8SG3
+    second: {fileID: 2100000, guid: 45414df905504f74284272230aaceea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041SG
+    second: {fileID: 2100000, guid: 876525cbdece8e34d898d15b712d8ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041SG1
+    second: {fileID: 2100000, guid: 7053f6f7dc66a134c9111200bb50f4ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041SG2
+    second: {fileID: 2100000, guid: c31fb6bf009023f4a9599ed8da34d24d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_2SG
+    second: {fileID: 2100000, guid: b5b28591c6a7e9a43a1ce8984a67e60d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_2SG1
+    second: {fileID: 2100000, guid: 607210c932ba7d24e9a3a86f1d046807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_2SG2
+    second: {fileID: 2100000, guid: 4b7b1fad56cb4004d8d3d77090e4219a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_3SG
+    second: {fileID: 2100000, guid: 72fc0bdbc32bb3746a503a167f2eea2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_3SG1
+    second: {fileID: 2100000, guid: b9ce08baf9160aa4fb824917237bdda8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_3SG2
+    second: {fileID: 2100000, guid: fef4913c6a0e08a4dab4a89da8e6f514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_4SG
+    second: {fileID: 2100000, guid: 93f7386c15697d240b120112f2d32be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_4SG1
+    second: {fileID: 2100000, guid: 821f13e853f6e714a832be0eb2616898, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0405FBXASC041_dup_4SG2
+    second: {fileID: 2100000, guid: 1a37e296b98237f4580a04c6af1db1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0406FBXASC041SG
+    second: {fileID: 2100000, guid: 46c40e66d465fd245a4048eadfb65f10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0406FBXASC041SG1
+    second: {fileID: 2100000, guid: 23a7844139b8f0640b69aea8a3ea3836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0406FBXASC041SG2
+    second: {fileID: 2100000, guid: f7d4e070012daa8408e637c07f632051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0407FBXASC041SG
+    second: {fileID: 2100000, guid: 702e58a5402389447ab79ae00f9b1874, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0407FBXASC041SG1
+    second: {fileID: 2100000, guid: 7b7bcf13925d6124ba294527c73842b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0407FBXASC041SG2
+    second: {fileID: 2100000, guid: 94ba33a1645df654e9d0c1555223bcd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0407FBXASC041SG3
+    second: {fileID: 2100000, guid: ca805704c54feb641a3d254990aa5eb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0407FBXASC041SG4
+    second: {fileID: 2100000, guid: 4f9734fea3b6f054583f863c3c02f249, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0407FBXASC041SG5
+    second: {fileID: 2100000, guid: 2e2ea19fba530de4ea4ddc2cf52543a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0407FBXASC041SG6
+    second: {fileID: 2100000, guid: 1b7dff1af0976294a8fa4c2e907ca76c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0408FBXASC041SG
+    second: {fileID: 2100000, guid: 258571da727714248b8b35b5661f99c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0408FBXASC041SG1
+    second: {fileID: 2100000, guid: ad07ccd5739541b48a71969852cb4f65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0408FBXASC041SG2
+    second: {fileID: 2100000, guid: 6c197d22b5ace804588500d09b5fe828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0409FBXASC041SG
+    second: {fileID: 2100000, guid: be23cc669e5e24048a4ebe78572da436, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0409FBXASC041SG1
+    second: {fileID: 2100000, guid: 48f70bfc5ca287b40b72ecd87cffc83d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0409FBXASC041SG2
+    second: {fileID: 2100000, guid: 2efdcde6418c1e441bc5874349e6f51b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0409FBXASC041_dup_2SG
+    second: {fileID: 2100000, guid: f94ba37144ecf89499165c2e88e7c4ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0409FBXASC041_dup_2SG1
+    second: {fileID: 2100000, guid: bdeb1b5881724cf4487bbca8d671c7e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: class_b_Mesh_FBXASC0409FBXASC041_dup_2SG2
+    second: {fileID: 2100000, guid: d1cb9b5e4d6ec3549aa433bb2f1332fb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 4
+    secondaryUVAreaDistortion: 5
+    secondaryUVHardAngle: 59
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
