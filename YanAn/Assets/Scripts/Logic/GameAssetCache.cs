@@ -29,6 +29,7 @@ public class GameAssetCache
     public static string selectPanelPath = "Prefab/SelectPanel";
     public static string yangkoScriptPanelPath = "Prefab/YangkoScriptPanel";
     public static string proofPanelPath = "Prefab/ProofPanel";
+    public static string studentSummaryPanelPath = "Prefab/StudentSummaryPanel";
     
     private static GameObject uiParent;
     public static GameObject UIParent

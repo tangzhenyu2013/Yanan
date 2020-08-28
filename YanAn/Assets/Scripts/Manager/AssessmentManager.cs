@@ -76,23 +76,24 @@ public class AssessmentManager
     /// <summary>
     /// 已使用的卡片列表
     /// </summary>
-    public Dictionary<string, Sprite> useCrads = new Dictionary<string, Sprite>();
+    public Dictionary<Sprite, string> useCrads = new Dictionary<Sprite, string>();
 
     public void AddUseCrad(string cradname)
     {
         if (null == cradname) return;
-        if (!useCrads.ContainsKey(cradname))
+        if (!useCrads.ContainsKey(dragSprite))
         {
-            useCrads.Add(cradname, dragSprite);
+            useCrads.Add(dragSprite, cradname);
         }
     }
 
     public Sprite GetUseCrad(string cradname)
     {
         if (null == cradname) return null;
-        if (useCrads.ContainsKey(cradname))
+        foreach (var item in useCrads)
         {
-            return useCrads[cradname];
+            if (item.Value == cradname)
+                return item.Key;
         }
         return null;
     }

@@ -50,7 +50,7 @@ public class ButtonEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
                         GameManager.GetInstance.UIPanelManager.CloseBasePanel();
                     });
                 break;
-            case "考核":
+            case "学生总结":
 
                 break;
             default:
@@ -77,6 +77,9 @@ public class ButtonEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
                 break;
             case "场景选择":
                 DesTipCtrl.ShowTips("场景选择", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
+                break;
+            case "学生总结":
+                DesTipCtrl.ShowTips("学生总结", eventData.pointerEnter.transform.localPosition, Anchor.Bottom, 50);
                 break;
             default:
                 break;

@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class MapPanel : SingletonMono<MapPanel>
 {
     public GameObject btn;
     public PointItem[] pointItems;
     // Start is called before the first frame update
     public static bool isLookMap;
+
+    public Button studentSummaryBtn;
     void Start()
     {
         PointCollection pointCollection = GameManager.GetInstance.JsonManager.PointCollection;
@@ -27,6 +29,19 @@ public class MapPanel : SingletonMono<MapPanel>
         RefreshBtn();
 
         DelayedFunctionCaller.DelayedCall(this, 1f, OpenDialogPanel);
+
+        //获得所有勋章
+        studentSummaryBtn.gameObject.SetActive(
+            GameManager.GetInstance.AssessmentManager.isGetCollege
+            && GameManager.GetInstance.AssessmentManager.isGetArt
+            && GameManager.GetInstance.AssessmentManager.isGetBase);
+
+        studentSummaryBtn.onClick.RemoveAllListeners();
+        studentSummaryBtn.onClick.AddListener(() =>
+        {
+            StudentSummaryPanel studentSummaryPanel = GameManager.GetInstance.UIPanelManager.OpenPanel(GameAssetCache.studentSummaryPanelPath) as StudentSummaryPanel;
+            studentSummaryPanel.Initial();
+        });
     }
 
     private void OpenDialogPanel()
